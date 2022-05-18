@@ -1,0 +1,117 @@
+
+/* * *      header    * *  */
+
+.header{
+    background-color: #212529;
+  
+  }
+  .header-barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: var(--fuenteSecundaria);
+    gap: 2rem;
+  }
+  
+  .titlulo-pagina{
+  text-align: center;
+  
+   
+  }
+  @media (max-width: 768px) {
+    .header-barra{
+      flex-direction: column;
+    }
+    .titlulo-pagina{
+      margin: 1rem;
+      
+    }
+    .barra-busqueda{
+      margin: 2rem;
+    }
+  
+   .barra-busqueda .elemento{
+     width: 30%;
+   }
+  
+  }
+  
+  
+  
+  
+  
+  
+  .header-barra .titlulo-pagina{
+   color: var(--blanco);
+   font-weight: 700;
+   font-size: 3rem;
+   font-family: var(--principal);
+   text-transform: uppercase;
+  }
+  .barra-busqueda{
+    display: flex;
+    background-color: var(--blanco);
+    width: 60%;
+    height: 3rem;
+    border-radius: 15px;
+  
+  }
+  
+  .categorias{
+    border-radius: 15px 0  0 15px ;
+    width: 25%;
+    text-align: center;
+    font-size: 1.5rem;
+    outline: none;
+    border-color: var(--gris);
+  }
+  
+  .barra-busqueda-articulo{
+    width: 68%;
+    outline: none;
+    border: none;
+   font-size: 1.5rem;
+  }
+  
+  .elemento{
+    border-radius: 0 15px 15px 0 ;
+    background-color: var(--azul);
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .elemento:hover{
+    cursor: pointer;
+    
+  }
+  .elemento i{
+   font-size: 1.5rem;
+   color: var(--blanco);
+  
+  }
+  
+  
+  .contenedor-carrito{
+    display: flex;
+    padding: 0.8rem 1rem;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    width: 12rem;
+  
+  }
+  .contenedor-carrito:hover{
+    cursor: pointer;
+  }
+  .cantidad-articulos{
+    background-color:var(--azul);
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--blanco);
+    border-radius: 50%;
+    line-height:15px;
+  
+  }

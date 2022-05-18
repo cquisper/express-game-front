@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/nomalize.css">
+    <link rel="stylesheet" href="css/header.css">
+      <!-- Scrip necesario en el header-->
+      <script src="https://kit.fontawesome.com/60453d73a9.js" crossorigin="anonymous"></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+
+
+
+    <!-- contenedor-->
+    <div class="contenedor_fondo">
+
+        <div class="contenedor">
+            <!-- login/sing up -->
+            <div class="contenedor_login">
+                <nav class="barra_login">
+                    <button type="button" data-paso="1" class="seleccionado">Sing in </button>
+                    <button type="button" data-paso="2" class="">Sing Up </button>
+                </nav>
+                <!-- ingresar -->
+                <div id="paso-1" class="formularios">
+                    <form action ="asdfasdf.html" id="ingresar_login" class="form-ingresar"  method ="POST">
+                        <div class="campo">
+                            <label for="usario_email">Ingrese su usuario o e-mail</label>
+                            <input type="text" name="usario_email" id="usario_email_login">
+                        </div>
+                        <div class="campo">
+                            <label for="password">Contraseña:</label>
+                            <input name="password" type="password" id="contraseña_login">
+                        </div>
+                        <input type="submit" value="ingresar" class="boton boton-login boton-azul">
+                    </form>
+                </div>
+
+                <div id="paso-2" class="formularios">
+                    <!-- loguear -->
+                    <form action ="asdfasdf.html" id="registro_login" class="form-registro" method ="POST">
+
+
+                        <div class="campo_doble">
+
+                            <div class="campo">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+                            </div>
+
+                            <div class="campo">
+                                <label for="apellidos">Apellidos</label>
+                                <input type="text" name="apellidos" id="apellidos" placeholder="Tus Apellidos">
+                            </div>
+                        </div>
+                        <div class="campo_doble">
+                            <div class="campo">
+                                <label for="dni">DNI</label>
+                                <input type="text" name="dni" id="dni" placeholder="Tu DNI">
+                            </div>
+                        </div>
+                        <!-- radiobutons -->
+                      
+
+
+                
+            
+                        <div class="campo">
+                            <label for="usuario">Usuario</label>
+                            <input type="text" name="usuario" id="usuario" placeholder="Tus usuario">
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input name="email" type="email" id="e-mail" placeholder="Tu e-mail">
+                        </div>
+                        <div class="campo">
+                            <label for="password">Contraseña:</label>
+                            <input name="password" type="password" id="password">
+                        </div>
+
+                        <div class="campo">
+                            <label for="confirmar_password">Confirmar Contraseña:</label>
+                            <input name="confirmar_password" type="password"  id="confirmar_password">
+                        </div>
+
+                        <input type="submit" value="crear_cuenta" class="boton boton-azul">
+                    </form>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
