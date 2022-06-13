@@ -1,0 +1,6 @@
+org\palacios\apiservelet\webapp\controller\models\Cliente.class
+org\palacios\apiservelet\webapp\controller\repositories\Repository.class
+org\palacios\apiservelet\webapp\controller\controlers\RegistrarServelet.class
+org\palacios\apiservelet\webapp\controller\models\Usuario.class
+org\palacios\apiservelet\webapp\controller\controlers\IngresarServelet.class
+org\palacios\apiservelet\webapp\controller\models\Rol.class

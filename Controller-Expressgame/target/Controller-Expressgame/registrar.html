@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Registrarse</title>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap"
+          rel="stylesheet">
+    <link href="../java/org/palacios/apiservelet/webapp/controller/assets/bootstrap/css/theme.min.css" rel="stylesheet"
+          id="style-default">
+    <script src="https://kit.fontawesome.com/60453d73a9.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<!-- ===============================================-->
+<!--    Main Content-->
+<!-- ===============================================-->
+
+<style>
+
+    option {
+        color: #357CE1;
+    }
+</style>
+<main class="main" id="top">
+    <div class="container" data-layout="container">
+
+        <div class="row flex-center min-vh-100 py-6">
+            <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4"><a class="d-flex flex-center mb-4"
+                                                                           href="index.html"><img class="me-2"
+                                                                                                  src="../java/org/palacios/apiservelet/webapp/controller/assets/img/icons/logoExpresgame.png"
+                                                                                                  alt="" width="58"/>
+                <span class="font-sans-serif fw-bolder fs-5 d-inline-block">Controller </span></a>
+                <div class="card">
+                    <div class="card-body p-4 p-sm-5">
+                        <div class="row flex-between-center mb-2">
+                            <div class="col-auto">
+                                <h5>Register</h5>
+                            </div>
+                            <div class="col-auto fs--1 text-600"><span class="mb-0 undefined">Have an account?</span>
+                                <span><a href="ingresar.html">Login</a></span></div>
+                        </div>
+                        <!--Indica la raiz del proyecto y dale registrar-->
+                        <form action="/Controller-ExpressGame/form-registrar" method="post">
+                            <div class="mb-3">
+                                <input class="form-control" name="nombre" type="text" autocomplete="on"
+                                       placeholder="Nombre"/>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" name="apellido" type="text" autocomplete="on"
+                                       placeholder="Apellido"/>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" name="dni" type="text" autocomplete="on" placeholder="DNI"/>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" name=username type="text" autocomplete="on"
+                                       placeholder="Username"/>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select form-select-sm">
+                                    <option>-- Seleccionar Rol --</option>
+                                    <option>Cliente</option>
+                                    <option>Administrador</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="email" autocomplete="on" placeholder="Email address"/>
+                            </div>
+                            <div class="row gx-2">
+                                <div class="mb-3 col-sm-6">
+                                    <input class="form-control" type="password" autocomplete="on"
+                                           placeholder="Password"/>
+                                </div>
+                                <div class="mb-3 col-sm-6">
+                                    <input class="form-control" type="password" autocomplete="on"
+                                           placeholder="Confirm Password"/>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <button class="btn btn-primary d-block w-100 mt-3" type="submit" name="submit">
+                                    Register
+                                </button>
+                            </div>
+                        </form>
+                        <div class="position-relative mt-4">
+                            <hr class="bg-300"/>
+                            <div class="divider-content-center">or register with</div>
+                        </div>
+                        <div class="row g-2 mt-2">
+                            <div class="col-sm-6"><a class="btn btn-outline-google-plus btn-sm d-block w-100"
+                                                     href="#"><span><i class="fa-brands fa-google"></i></span>
+                                google</a></div>
+                            <div class="col-sm-6"><a class="btn btn-outline-facebook btn-sm d-block w-100"
+                                                     href="#"><span><i class="fa-brands fa-facebook"></i></span>
+                                facebook</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>
